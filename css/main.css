@@ -1,0 +1,102 @@
+body {
+	background: url(../images/background.jpg);
+	background-size: 100%;
+}
+
+#container {
+	width: 75%;
+	margin: auto;
+	background-color: white;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+
+h1 {
+	font-size: 72px;
+	font-family: "ViaGrande", sans-serif;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	color: black;
+	
+}
+
+nav li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0px 20px;
+  margin: 10px 0;
+}
+ 
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+nav li a:hover {
+  color: #666;
+}
+
+#main {
+	float: left;
+	width: 60%;
+	padding-bottom: 50px;
+}
+
+h3 {
+	clear: both;
+	margin: 20px 0 10px 0;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: helvetica;
+	text-transform: uppercase;
+}
+
+p {
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+span {
+	font-weight: bold;
+}
+
+.list {
+	margin-left: 20px
+}
+
+article a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+aside ul {
+	list-style: disc;
+}
+
+aside a {
+	text-decoration: none;
+ 	color: #ccc;
+ 	font: 25px Helvetica, Verdana, sans-serif;
+ 	text-transform: uppercase;
+}
+
+aside li a:hover {
+  color: #666;
+}
+
